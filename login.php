@@ -33,17 +33,17 @@
 						<p class="mb-0 text-fade">Sign in to continue to edulearn.</p>    							
 							    </div>
 							<div class="p-40">
-								<form action="index.php" method="POST">
+								<form action="" method="POST">
 									<div class="form-group">
 										<div class="input-group mb-3">
 											<span class="input-group-text bg-transparent"><i class="text-fade ti-user"></i></span>
-											<input type="text" class="form-control ps-15 bg-transparent" placeholder="Username">
+											<input name="email" type="email" class="form-control ps-15 bg-transparent" placeholder="Email">
 										</div>
 									</div>
 									<div class="form-group">
 										<div class="input-group mb-3">
 											<span class="input-group-text  bg-transparent"><i class="text-fade ti-lock"></i></span>
-											<input type="password" class="form-control ps-15 bg-transparent" placeholder="Password">
+											<input name="password" type="password" class="form-control ps-15 bg-transparent" placeholder="Password">
 										</div>
 									</div>
 									  <div class="row">
@@ -61,13 +61,13 @@
 										</div>
 										<!-- /.col -->
 										<div class="col-12 text-center">
-										  <button type="submit" class="btn btn-primary w-p100 mt-10">SIGN IN</button>
+										  <button name="btnsub" type="submit" class="btn btn-primary w-p100 mt-10">SIGN IN</button>
 										</div>
 										<!-- /.col -->
 									  </div>
 								</form>	
 								<div class="text-center">
-									<p class="mt-15 mb-0 text-fade">Don't have an account? <a href="https://airforshare.com/files/auth_register.html" class="text-primary ms-5">Sign Up</a></p>
+									<p class="mt-15 mb-0 text-fade">Don't have an account? <a href="register.php" class="text-primary ms-5">Sign Up</a></p>
 								</div>
 								
 								<div class="text-center">
