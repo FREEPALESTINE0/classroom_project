@@ -11,29 +11,29 @@
     <title>edulearn - Log in </title>
   
 	<!-- Vendors Style-->
-	<link rel="stylesheet" href="../src/css/vendors_css.css">
+	<link rel="stylesheet"href="template/template/vertical/src/css/vendors_css.css">
 	  
 	<!-- Style-->  
-	<link rel="stylesheet" href="../src/css/style.css">
-	<link rel="stylesheet" href="../src/css/skin_color.css">	
+	<link rel="stylesheet"href="template/template/vertical/src/css/style.css">
+	<link rel="stylesheet"href="template/template/vertical/src/css/skin_color.css">	
 
 </head>
 	
-<body class="hold-transition theme-primary bg-img" style="background-image: url(../../../images/auth-bg/bg-16.html)">
+<body class="hold-transition theme-primary bg-img" style="background-image: url(template/images/auth-bg/bg-16.html)">
 	
 	<div class="container h-p100">
 		<div class="row align-items-center justify-content-md-center h-p100">	
 			
-			<div class="col-12">
-				<div class="row justify-content-center g-0">
-					<div class="col-lg-5 col-md-5 col-12">
-						<div class="bg-white rounded10 shadow-lg">
-							<div class="content-top-agile p-20 pb-0">
-								<h2 class="text-primary fw-600">Let's Get Started</h2>
-								<p class="mb-0 text-fade">Sign in to continue to edulearn.</p>							
-							</div>
+	<div class="col-12">
+		<div class="row justify-content-center g-0">
+			<div class="col-lg-5 col-md-5 col-12">
+				<div class="bg-white rounded10 shadow-lg">
+					<div class="content-top-agile p-20 pb-0">
+						<h2 class="text-primary fw-600">Let's Get Started</h2>
+						<p class="mb-0 text-fade">Sign in to continue to edulearn.</p>    							
+							    </div>
 							<div class="p-40">
-								<form action="https://edulearn-lms-admin-template.multipurposethemes.com/template/vertical/main/index.html" method="post">
+								<form action="index.php" method="POST">
 									<div class="form-group">
 										<div class="input-group mb-3">
 											<span class="input-group-text bg-transparent"><i class="text-fade ti-user"></i></span>
@@ -88,9 +88,9 @@
 
 
 	<!-- Vendor JS -->
-	<script src="../src/js/vendors.min.js.download"></script>
-	<script src="../src/js/chat-popup.js.download"></script>
-    <script src="../src/js/feather.min.js.download"></script>	
+	<script src="template/template/vertical/src/js/vendors.min.js"></script>
+	<script src="template/template/vertical/src/js/chat-popup.js"></script>
+    <script src="template/template/vertical/src/js/feather.min.js"></script>	
 
 
 
