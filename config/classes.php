@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 trait connection
 {
     protected $con; 
@@ -36,7 +36,10 @@ class classroom
 
         if($users>0)
         {
-            echo "found";
+            $_SESSION["user_id"] = $users[0];
+            $_SESSION["username"] = $users[1];
+
+            header("Location:../index.php");
         }
         else
         {

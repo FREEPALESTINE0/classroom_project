@@ -17,7 +17,7 @@
 			<div class="d-flex align-items-center justify-content-between pb-30">
 				<h4 class="m-0">User Profile
 				<small class="text-fade fs-12 ms-5">12 messages</small></h4>
-				<a href="#" class="btn btn-icon btn-danger-light btn-sm no-shadow" data-bs-dismiss="modal">
+				<a href="php/logout.php" class="btn btn-icon btn-danger-light btn-sm no-shadow">
 					<span class="fa fa-close"></span>
 				</a>
 			</div>

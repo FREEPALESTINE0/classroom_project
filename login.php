@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if(isset($_SESSION["username"]))
+{
+	header("Location:index.php");
+}
+?>
+
 <!DOCTYPE html>
 <!-- saved from url=(0041)https://airforshare.com/files/MljyOw.html -->
 <html lang="en"><!-- Mirrored from edulearn-lms-admin-template.multipurposethemes.com/template/vertical/main/auth_login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Mar 2026 10:43:17 GMT --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
